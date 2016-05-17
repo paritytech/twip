@@ -10,12 +10,19 @@ Hello and welcome to first issue of *This week in Parity*! Parity is world's fas
 
 ## What's new in Parity?
 
-- [@arkpar](https://github.com/arkpar) was polishing the new syncing code and bugfixing.
-- [@debris](https://github.com/debris) finished working on [ethabi](https://github.com/ethcore/ethabi) - library and command line tool to interact with evm contracts.
-- [@gavofyork](https://github.com/gavofyork) was bugfixing rpc api.
-- [@NikVolf](https://github.com/NikVolf) added configuration for keys security, multiple refactoring to get database api ready for migration to ipc architecture.
-- [@tomusdrw](https://github.com/tomusdrw) has been working on domain-based routing in webapps when using parity as a proxy (with proxy.pac). Identity management topbar for dapps.
+- [@gavofyork](https://github.com/gavofyork) added geth IPC compatibility [#1059](https://github.com/ethcore/parity/pull/1059)
+- [@arkpar](https://github.com/arkpar) added transaction signature validation in tx queue [#1068](https://github.com/ethcore/parity/pull/1068)
+- [@arkpar](https://github.com/arkpar) fixed connecting to local nodes on startup [#1070](https://github.com/ethcore/parity/pull/1070)
+- [@NikVolf](https://github.com/NikVolf) added configuration for security keys [#1080](https://github.com/ethcore/parity/pull/1080)
+- [@NikVolf](https://github.com/NikVolf) improved configuration of database directories across platforms [#1083](https://github.com/ethcore/parity/pull/1083)
+- [@gavofyork](https://github.com/gavofyork) fixed rpc bug in eth_getUncleByBlockNumberAndIndex [#1087](https://github.com/ethcore/parity/pull/1087)
+- [@tomusdrw](https://github.com/tomusdrw) has been working on domain-based routing in webapps when using parity as a proxy (with proxy.pac) [#1082](https://github.com/ethcore/parity/pull/1082)
+- [@arkpar](https://github.com/arkpar) implemented syncing block collections [#1088](https://github.com/ethcore/parity/pull/1088)
+- [@tomusdrw](https://github.com/tomusdrw) implemented identity management topbar for dapps [#1092](https://github.com/ethcore/parity/pull/1092)
+- [@debris](https://github.com/debris) fixed fixed incorrect decoding of header seal_fields [#1094](https://github.com/ethcore/parity/pull/1094)
+- [@NikVolf](https://github.com/NikVolf) has been refactoring database api to get it ready for migration to ipc architecture.
 - [@General-Beck](https://github.com/General-Beck) was busy working on cross platform travis builds, mining, travis, mining and even more travis and mining ;)
+- [@debris](https://github.com/debris) finished working on [ethabi](https://github.com/ethcore/ethabi) - library and command line tool to interact with evm contracts
 - ... and many other small things.
 
 ## What's next?
