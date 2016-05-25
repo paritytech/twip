@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>This week in Parity</title>
+
+<xmp theme="simplex" style="display:none;">
+###### 25-05-2016
+# This week in Parity #2
+
+Hello and welcome to second issue of *This week in Parity*! Parity is world's fastest and lightest Ethereum client. Written in the sophisticated, cutting-edge Rust language. This is a weekly summary of its progress and community.
+
+## What's new in Parity?
+
+- [@gavofyork](https://github.com/gavofyork) fixed up the seal fields in RPC output [#1096](https://github.com/ethcore/parity/pull/1096)
+- [@debris](https://github.com/debris) added CLI option of using jit evm [#1103](https://github.com/ethcore/parity/pull/1103)
+- [@tomusdrw](https://github.com/tomusdrw) ehanced parity webapps API and added Home webapp [#1101](https://github.com/ethcore/parity/pull/1101)
+- [@NikVolf](https://github.com/NikVolf) refactored the miner to hold it's own copy of spec and engine [#1091](https://github.com/ethcore/parity/pull/1091)
+- [@debris](https://github.com/debris) made Id/ID and db/Db/DB usages consistent across the codebase [#1105](https://github.com/ethcore/parity/pull/1105)
+- [@NikVolf](https://github.com/NikVolf) was working on moving separating db layet to it's own crate and process [#1097](https://github.com/ethcore/parity/pull/1097), [#1115](https://github.com/ethcore/parity/pull/1115)
+- [@arkpar](https://github.com/arkpar) finished new syncing strategy (using hashes instead of block numbers) [#1095](https://github.com/ethcore/parity/pull/1095)
+- [@tomusdrw](https://github.com/tomusdrw) ported DAO and Maker OTC	dapp to parity [#1113](https://github.com/ethcore/parity/pull/1113)
+- [@gavofyork](https://github.com/gavofyork) added additional CLI options for importing keys (`--no-import-keys`, `--testnet`) [#1119](https://github.com/ethcore/parity/pull/1119)
+- [@gavofyork](https://github.com/gavofyork) fixed rpc `is_syncing` method [#1122](https://github.com/ethcore/parity/pull/1122)
+- [@gavofyork](https://github.com/gavofyork) implemented exporting [#1129](https://github.com/ethcore/parity/pull/1129) and importing [#1132](https://github.com/ethcore/parity/pull/1132) blockchain.
+- [@rphmeier](https://github.com/rphmeier) implemented error pretty printing [#1116](https://github.com/ethcore/parity/pull/1116)
+- [@gavofyork](https://github.com/gavofyork) added coloured padded logging [#1133](https://github.com/ethcore/parity/pull/1133)
+- [@debris](https://github.com/debris) added foundation of simple db migration [#1128](https://github.com/ethcore/parity/pull/1128) and did first db migration [#1014](https://github.com/ethcore/parity/pull/1014)
+- [@jacogr](https://github.com/jacogr) has been working on javascript port of [ethabi](https://github.com/ethcore/ethabi) - [ethabi-js](https://github.com/jacogr/ethabi-js)
+- [@arkpar](https://github.com/arkpar) has been working on *windows build* - it's almost done!
+- ... and many other small things.
+
+## What's next?
+
+- Fat DB [#138](https://github.com/ethcore/parity/issues/138)
+- State-sync "PV63" [#149](https://github.com/ethcore/parity/issues/149)
+- Windows build [#462](https://github.com/ethcore/parity/issues/462)
+- Optimise gas calculation in EVM [#491](https://github.com/ethcore/parity/issues/491)
+- Split network, JSONRPC, rocksdb & core into separate processes [#492](https://github.com/ethcore/parity/issues/492)
+- Stratum/Eth API for mining [#755](https://github.com/ethcore/parity/issues/755)
+- RESTful interface module [#765](https://github.com/ethcore/parity/issues/765)
+- Comprehensive tests for client module [#863](https://github.com/ethcore/parity/issues/863)
+
+## List of all contributors so far
+
+- [@arkpar](https://github.com/arkpar)
+- [@debris](https://github.com/debris)
+- [@gavofyork](https://github.com/gavofyork)
+- [@General-Beck](https://github.com/General-Beck)
+- [@goldylucks](https://github.com/goldylucks)
+- [@jesuscript](https://github.com/jesuscript)
+- [@kobigurk](https://github.com/kobigurk)
+- [@loxal](https://github.com/loxal)
+- [@Manishearth](https://github.com/Manishearth)
+- [@NikVolf](https://github.com/NikVolf)
+- [@peterjoel](https://github.com/peterjoel)
+- [@petevine](https://github.com/petevine)
+- [@poppingtonic](https://github.com/poppingtonic)
+- [@guanqun](https://github.com/guanqun)
+- [@rphmeier](https://github.com/rphmeier)
+- [@tomusdrw](https://github.com/tomusdrw)
+- [@wlk](https://github.com/wlk)
+
+## Our new coloured logging output
+
+![Parity](images/2016-05-25-console.png)
+
+</xmp>
+
+<script src="../strapdown.js"></script>
+</html>
