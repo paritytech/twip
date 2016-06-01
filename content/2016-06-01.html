@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<a href="https://github.com/ethcore/parity"><img style="position: absolute; top: 0; right: 0; border: 0; margin: 0; z-index: 1" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+<title>This week in Parity</title>
+<xmp theme="simplex" style="display:none;">
+###### 01-06-2016
+# This week in [Parity](https://github.com/ethcore/parity) #3
+
+Hello and welcome to third issue of *This week in Parity*! Parity is world's fastest and lightest Ethereum client. Written in the sophisticated, cutting-edge Rust language. This is a weekly summary of its progress and community.
+
+## What's new in Parity?
+
+- [@rphmeier](https://github.com/rphmeier) did a bunch of code quality fixes [#1143](https://github.com/ethcore/parity/pull/1143) [#1168](https://github.com/ethcore/parity/pull/1168) [#1192](https://github.com/ethcore/parity/pull/1192) and greatly improved our rpc tests [#1149](https://github.com/ethcore/parity/pull/1149) [#1151](https://github.com/ethcore/parity/pull/1151) [#1159](https://github.com/ethcore/parity/pull/1159) [#1141](https://github.com/ethcore/parity/pull/1141) [#1171](https://github.com/ethcore/parity/pull/1171) [#1196](https://github.com/ethcore/parity/pull/1196)
+- [@gavofyork](https://github.com/gavofyork) added more morden bootnodes [#1153](https://github.com/ethcore/parity/pull/1153) and was working on VM tracing [#1169](https://github.com/ethcore/parity/pull/1169)
+- [@debris](https://github.com/debris) did migration fixes [#1155](https://github.com/ethcore/parity/pull/1155) and separared [ethkey](https://github.com/ethcore/ethkey) and [ethstore](https://github.com/ethcore/ethstore) libraries from parity core.
+- [@NikVolf](https://github.com/NikVolf) implemented write queue which greatly improves IPC performance [#1160](https://github.com/ethcore/parity/pull/1160) [#1185](https://github.com/ethcore/parity/pull/1185)
+- [@tomusdrw](https://github.com/tomusdrw) started working on singer module with WS interface [#1158](https://github.com/ethcore/parity/pull/1158) [#1167](https://github.com/ethcore/parity/pull/1167) and fixed few vulerabilities in our json-rpc interface [#1197](https://github.com/ethcore/parity/pull/1197)
+- [@arkpar](https://github.com/arkpar) worked on windows build [(nanomsg.rs)](https://github.com/thehydroimpulse/nanomsg.rs/compare/master...ethcore:master) and as usually did a couple of sync improvements [#1164](https://github.com/ethcore/parity/pull/1164)
+- [@jacogr](https://github.com/jacogr) has finished his [ethabi-js](https://github.com/jacogr/ethabi-js) library and integrated it with [ethapi-js](https://github.com/jacogr/ethapi-js) which could be used as `web3.js` replacement.
+- ... and many other small things.
+
+## Ethcore toolchain
+*aka it's not only parity*
+
+- [**ethkey**](https://github.com/ethcore/ethkey) (*new*) - Ethereum key generor and signer. **rust**, **cli**
+- [**ethstore**](https://github.com/ethcore/ethstore) (*new*) - Ethereum key management (secret store). **rust**, **cli**
+- [**ethabi**](https://github.com/ethcore/ethabi) - Ethereum contract function call encoder. **rust**, **cli**
+- [**ethabi-js**](https://github.com/jacogr/ethabi-js) (*new*) - JavaScript port of of ethabi. **js**
+- [**ethapi-js**](https://github.com/jacogr/ethapi-js) (*new*) - High quality `web3.js` replacement. **js**
+
+## List of all contributors so far
+
+- [@arkpar](https://github.com/arkpar)
+- [@debris](https://github.com/debris)
+- [@gavofyork](https://github.com/gavofyork)
+- [@General-Beck](https://github.com/General-Beck)
+- [@goldylucks](https://github.com/goldylucks)
+- [@jesuscript](https://github.com/jesuscript)
+- [@kobigurk](https://github.com/kobigurk)
+- [@loxal](https://github.com/loxal)
+- [@Manishearth](https://github.com/Manishearth)
+- [@NikVolf](https://github.com/NikVolf)
+- [@peterjoel](https://github.com/peterjoel)
+- [@petevine](https://github.com/petevine)
+- [@poppingtonic](https://github.com/poppingtonic)
+- [@guanqun](https://github.com/guanqun)
+- [@rphmeier](https://github.com/rphmeier)
+- [@tomusdrw](https://github.com/tomusdrw)
+- [@wlk](https://github.com/wlk)
+
+</xmp>
+
+<script src="../strapdown.js"></script>
+</html>
